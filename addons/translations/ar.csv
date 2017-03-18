@@ -1,0 +1,98 @@
+DocType: Interview Evaluation table 1, knowledge of the required position ,
+DocType: User Account Creation or Amendment table 1,Access ,نوع الدخول
+DocType: User Account Creation or Amendment table 1,Allowed,سمح
+DocType: Interview Evaluation,Amended From,عدل من
+DocType: Interview Evaluation,Any chronic diseases,أي من الأمراض المزمنة
+DocType: Interview Evaluation table 1,Appearance  & Communication Skills ,المضهر ومهارات التواصل
+DocType: Interview Evaluation,Applicant Name,اسم مقدم الطلب
+DocType: Custody Returning table 1,Asset No or code,رمز
+DocType: Requisition of Materials or Services,Attachment,مرفق
+DocType: User Account Creation or Amendment,Birth Date,تاريخ الميلاد
+DocType: User Account Creation or Amendment,Change permissions,تغيير الأذونات
+DocType: Interview Evaluation table 1,Comments,تعليقات
+DocType: Interview Evaluation table 1,Computer Skills,مهارات الحاسوب
+DocType: Custody Returning table 1,Condition,الحالة
+DocType: User Account Creation or Amendment,Create new account,انشاء حساب جديد
+DocType: Custody Issuance,Custody Issuance,إصدار عهدة
+apps/hr_extras/hr_extras/config/hr.py +12,Custody Issuance Form for you.,نموذج إصدار الحضانة بالنسبة لك.
+DocType: Custody Returning,Custody Returning,إرجاع عهدة
+DocType: Custody Returning table 1,Custody Returning table 1,حضانة جدول زيارات 1
+DocType: Requisition of Materials or Services,Date,تاريخ
+DocType: User Account Creation or Amendment,Delete account,حذف الحساب
+DocType: Custody Issuance,Department,قسم
+DocType: Custody Returning table 1,Description,وصف
+DocType: Overtime Application,Designation,تعيين
+DocType: Custody Returning,EEN,رقم الموضف
+DocType: Interview Evaluation table 1,Education/Training ,
+DocType: Interview Evaluation,Email Address,عنوان البريد الإلكتروني
+DocType: Overtime Application,Employee,موظف
+DocType: Interview Evaluation table 1,Evaluation Criteria,معيار التقييم
+DocType: Interview Evaluation table 1,Experience ,الخبرة
+DocType: User Account Creation or Amendment,Female,أنثى
+DocType: User Account Creation or Amendment,First Name,الاسم الأول
+DocType: Overtime Application table 1,From Time,إبتداء من
+DocType: User Account Creation or Amendment,Gender,جنس
+DocType: Interview Evaluation,Has an allergic reaction from:,لديه رد فعل تحسسي من
+DocType: Overtime Application table 1,Hrs,ساعة
+DocType: User Account Creation or Amendment table 2,If Document Type,إذا كان نوع الوثيقة
+DocType: Interview Evaluation,If yes please specify the type of tests required,إذا كانت الإجابة بنعم يرجى تحديد نوع الاختبارات المطلوبة
+DocType: Interview Evaluation,Interview End Time,وقت أنتهاء المقابلة
+DocType: Interview Evaluation,Interview Evaluation,مقابلة التقيم
+DocType: Interview Evaluation table 1,Interview Evaluation table 1,جدول تقييم مقابلة 1
+DocType: Interview Evaluation,Interview Start Time,وقت بدء المقابلة
+DocType: Interview table 1,Interview table 1,جدول مقابلة 1
+DocType: Interview Evaluation,Interviewer  1,المقابلة 1
+DocType: Interview Evaluation,Interviewer  2,المقابلة 2
+DocType: Interview Evaluation,Interviewer  3,المقابلة 3
+DocType: User Account Creation or Amendment table 2,Is,يكون
+DocType: Interview Evaluation,Is the assessment tests required,هل اختبارات التقييم المطلوبة
+DocType: Interview Evaluation,Is this applicant recommended to be in final applicants list,هل المتقدم يمكن أن يكون في قائمة المتقدمين النهائية
+DocType: Custody Returning table 1,Issuance  Date,تاريخ إرجاع العهدة
+DocType: Custody Issuance,Issuance Date,تاريخ إاستلام العهدة
+DocType: Custody Issuance,Issued To,أصدرت إلى
+DocType: Custody Issuance,Items List,قائمة العهد
+DocType: Interview Evaluation table 1,Job Stability,الاستقرار الوظيفي
+DocType: Interview Evaluation,Job Title ,الاسم الوظيفي
+DocType: Interview Evaluation table 1,Language ,اللغة
+DocType: User Account Creation or Amendment,Last Name,اللقب
+DocType: Custody Issuance,Location,الموقع
+DocType: User Account Creation or Amendment,Male,ذكر
+DocType: User Account Creation or Amendment,Middle Name,الاسم الأوسط
+DocType: Interview Evaluation,No,لا
+DocType: User Account Creation or Amendment table 1,Not Allowed,غير مسموح
+DocType: Interview Evaluation table 1,Not Satisfactory ,غير مُرضي
+DocType: User Account Creation or Amendment,Other,آخر
+DocType: Interview Evaluation table 1,Outstanding,معلق
+DocType: Overtime Application,Overtime Application,وقت عمل إضافي
+DocType: Overtime Application table 1,Overtime Application table 1,
+DocType: Custody Issuance,Position,المركز
+DocType: Overtime Application table 1,Project,المشروع
+DocType: Interview Evaluation,Range of Salary Expectations,المرتب المتوقع
+DocType: Interview Evaluation table 1,Rating,تقييم
+apps/hr_extras/hr_extras/config/hr.py +7,Recruitment,التوظيف
+DocType: Custody Returning table 1,Remarks,ملاحظات
+DocType: User Account Creation or Amendment,Request type,نوع الطلب
+DocType: Interview Evaluation,Requested By,مقدم الطلب
+DocType: Interview Evaluation,Requesting Party Designation,الجهة المقدمة للطلب
+DocType: Requisition of Materials or Services,Requisition of Materials or Services,طلب أدوات أو خدمات
+DocType: Custody Returning,Returned From,مٌرجعة من طرف
+DocType: Custody Returning,Returning Date,تاريخ الإرجاع
+DocType: User Account Creation or Amendment table 1,Role,الدور
+DocType: User Account Creation or Amendment,Role Permissions,صلاحيات الدور
+DocType: Interview Evaluation table 1,Satisfactory           ,الرضى
+DocType: Interview Evaluation,Smoker,مدخن
+DocType: Overtime Application table 1,To Time,إلى غاية
+DocType: User Account Creation or Amendment,User Account Creation or Amendment,إنشاء أو تعديل مستخدم
+DocType: User Account Creation or Amendment table 1,User Account Creation or Amendment table 1,
+DocType: User Account Creation or Amendment table 2,User Account Creation or Amendment table 2,
+DocType: User Account Creation or Amendment,User Permissions,صاحيات المستخدم
+DocType: Interview Evaluation table 1,Very satisfactory,مُرضي جدا
+DocType: User Account Creation or Amendment,Work email,بريد العمل الإلكتروني
+DocType: Interview Evaluation,Yes,نعم
+DocType: Receiving Correspondence,Client Reference,رقم الزبون
+DocType: Receiving Correspondence,Receiving Date,تاريخ الإستلام
+DocType: Receiving Correspondence,Received by,المُستلم
+DocType: Receiving Correspondence,Sent us by,مُرسل من طرف
+DocType: Receiving Correspondence,Copy of Letter,نسخة من المراسلة
+DocType: Receiving Correspondence,Hard Copy,النسخة الأصل
+DocType: Receiving Correspondence,Filing the Location of the Hard Copy,اذكر مكان النسخة الأصل
