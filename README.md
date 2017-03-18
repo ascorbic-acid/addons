@@ -1,6 +1,6 @@
 ## Addons
 
-ERPNext addons app, docdd
+ERPNext addons app, doctypes, customizations, more...
 
 #### License
 
