@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class Overtime(Document):
+class interviewtable1(Document):
 	pass

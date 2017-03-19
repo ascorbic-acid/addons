@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-# test_records = frappe.get_test_records('Overtime')
+# test_records = frappe.get_test_records('Create Table')
 
-class TestOvertime(unittest.TestCase):
+class TestCreateTable(unittest.TestCase):
 	pass

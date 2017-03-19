@@ -6,12 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class testdoctype(Document):
+class Createtabletable1(Document):
 	pass
-
-
-@frappe.whitelist()
-def get_data(params):
-
-	dt = frappe.get_doc("Employee", params)
-	return dt

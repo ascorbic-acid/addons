@@ -248,7 +248,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-03-13 18:17:51.649651", 
+ "modified": "2017-03-19 09:26:20.991348", 
  "modified_by": "Administrator", 
  "module": "Addons", 
  "name": "Requisition of Materials or Services", 
@@ -277,7 +277,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "sort_field": "modified", 
