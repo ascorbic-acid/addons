@@ -1,6 +1,6 @@
 ## Addons
 
-ERPNext addons app, doctypes, customizations, more...
+ERPNext addons app, doctypes, customizations, translations and more...
 ## Hr Extras
 
 additional ERPNext HR doctypes app.
@@ -21,7 +21,9 @@ additional ERPNext HR doctypes app.
 
 -Overtime Application (HR)
 
--Create Table (HR)
+-Disciplinary Actions (HR)
+
+-Travel Justification (HR)
 
 #### License
 

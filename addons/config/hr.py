@@ -8,22 +8,17 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Custody Issuance Form",
-					"description": _("Custody Issuance Form for you."),
+					"name": "Interview Evaluation",
+					"description": _("User Account Creation or Amendment."),
 				},
 			]
 		},
 		{
-			"label": _("Recruitment"),
+			"label": _("User Account Creation or Amendment"),
 			"items": [
 				{
 					"type": "doctype",
 					"name": "User Account Creation or Amendment",
-					"description": _("User Account Creation or Amendment."),
-				},
-				{
-					"type": "doctype",
-					"name": "Interview Evaluation",
 					"description": _("User Account Creation or Amendment."),
 				},
 			]
@@ -54,6 +49,16 @@ def get_data():
 			]
 		},
 		{
+			"label": _("Disciplinary Actions"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Disciplinary Actions",
+					"description": _("Disciplinary Actions."),
+				},
+			]
+		},
+		{
 			"label": _("Custodies"),
 			"items": [
 				{
@@ -68,8 +73,8 @@ def get_data():
 				},
 			]
 		},
-				{
-			"label": _("Payroll"),
+		{
+			"label": _("Overtime"),
 			"items": [
 				{
 					"type": "doctype",
@@ -78,4 +83,15 @@ def get_data():
 				},
 			]
 		},
+				{
+			"label": _("Travel"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Travel Justification",
+					"description": _("Travel Justification."),
+				},
+			]
+		},
+
 	]
