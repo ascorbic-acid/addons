@@ -590,7 +590,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-03-25 12:06:57.395815", 
+ "modified": "2017-03-27 18:41:24.618500", 
  "modified_by": "Administrator", 
  "module": "Addons", 
  "name": "User Account Creation or Amendment", 
@@ -625,6 +625,6 @@
  "search_fields": "full_name, request_type, naming_series", 
  "sort_field": "modified", 
  "sort_order": "DESC", 
- "title_field": "", 
+ "title_field": "full_name", 
  "track_seen": 0
 }

@@ -15,8 +15,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-#app_include_css = "/assets/addons/css/addons.css"
-# app_include_js = "/assets/addons/js/addons.js"
+#app_include_css = ["/assets/addons/css/addons.css"]
+app_include_js = ["/assets/addons/js/elevateZoom.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/addons/css/addons.css"
@@ -52,7 +52,7 @@ app_license = "MIT"
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "addons.notifications.get_notification_config"
+notification_config = "addons.config.notifications.get_notification_config"
 
 # Permissions
 # -----------

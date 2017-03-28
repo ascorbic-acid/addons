@@ -197,7 +197,7 @@
    "in_filter": 0, 
    "in_list_view": 1, 
    "in_standard_filter": 0, 
-   "label": "Description", 
+   "label": "Describe your request", 
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -279,7 +279,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-03-25 13:55:08.813906", 
+ "modified": "2017-03-27 18:31:28.068632", 
  "modified_by": "Administrator", 
  "module": "Addons", 
  "name": "Requisition of Materials or Services", 
@@ -314,5 +314,5 @@
  "sort_field": "modified", 
  "sort_order": "DESC", 
  "title_field": "employee", 
- "track_seen": 0
+ "track_seen": 1
 }

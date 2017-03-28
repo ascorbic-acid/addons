@@ -11,6 +11,11 @@ def get_data():
 					"name": "Interview Evaluation",
 					"description": _("User Account Creation or Amendment."),
 				},
+				{
+					"type": "doctype",
+					"name": "Interview Evaluation Criteria",
+					"description": _("Interview Evaluation Criteria."),
+				},
 			]
 		},
 		{
@@ -39,7 +44,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Requisitions and Reports"),
+			"label": _("Requisitions (Uses for employees' needs only)"),
 			"items": [
 				{
 					"type": "doctype",
