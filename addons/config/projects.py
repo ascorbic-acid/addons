@@ -4,14 +4,13 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"label": _("Stock Transactions"),
+			"label": _("Reports"),
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Batch",
-					"description": _("Record item movement."),
+					"name": "Projects Progress Report",
+					"description": _("Projects Progress Report."),
 				},
 			]
 		},
-		
 	]

@@ -15,13 +15,13 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-#app_include_css = ["/assets/addons/css/addons.css"]
-app_include_js = ["/assets/addons/js/elevateZoom.js"]
+app_include_css = ["/assets/addons/css/jquery.dynatable.css"]
+#app_include_js = ["/assets/addons/js/Chart.js", "/assets/addons/js/jquery.dynatable.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/addons/css/addons.css"
 # web_include_js = "/assets/addons/js/addons.js"
-
+fixtures = ["Workflow", "Workflow State", "Workflow Action"]
 # Home Pages
 # ----------
 

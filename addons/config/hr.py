@@ -88,7 +88,7 @@ def get_data():
 				},
 			]
 		},
-				{
+		{
 			"label": _("Travel"),
 			"items": [
 				{
@@ -98,5 +98,15 @@ def get_data():
 				},
 			]
 		},
+		{
+			"label": _("Corrective Action Report"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Corrective Action Report",
+					"description": _("Corrective Action Report.")
+				}
+			]
+		}
 
 	]

@@ -1,0 +1,101 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "question-sign", 
+  "modified": "2017-03-23 19:49:22.030351", 
+  "name": "Pending", 
+  "style": "", 
+  "workflow_state_name": "Pending"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "ok-sign", 
+  "modified": "2017-03-23 19:49:22.034869", 
+  "name": "Approved", 
+  "style": "Success", 
+  "workflow_state_name": "Approved"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "remove", 
+  "modified": "2017-03-23 19:49:22.039477", 
+  "name": "Rejected", 
+  "style": "Danger", 
+  "workflow_state_name": "Rejected"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 11:01:59.630741", 
+  "name": "Draft", 
+  "style": "Primary", 
+  "workflow_state_name": "Draft"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 11:06:10.025502", 
+  "name": "Approved By Hr Manager", 
+  "style": "Info", 
+  "workflow_state_name": "Approved By Hr Manager"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 11:10:33.526858", 
+  "name": "Approved By General", 
+  "style": "Success", 
+  "workflow_state_name": "Approved By General"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 11:21:34.511190", 
+  "name": "Rejected By General Manager", 
+  "style": "Danger", 
+  "workflow_state_name": "Rejected By General Manager"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 12:55:20.512083", 
+  "name": "Calculated", 
+  "style": "Info", 
+  "workflow_state_name": "Calculated"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 15:01:33.039178", 
+  "name": "Reject Calculation", 
+  "style": "Inverse", 
+  "workflow_state_name": "Reject Calculation"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 15:04:05.659502", 
+  "name": "Rejected For Review", 
+  "style": "Inverse", 
+  "workflow_state_name": "Rejected For Review"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-03-29 15:07:26.992759", 
+  "name": "Review", 
+  "style": "Inverse", 
+  "workflow_state_name": "Review"
+ }
+]
