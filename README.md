@@ -1,15 +1,27 @@
-## Addons
+Addons
 
 ERPNext addons app, doctypes, customizations, translations and more...
-## Hr Extras
 
-additional ERPNext HR doctypes app.
+-Project Charter (Projects)
+
+-Project Daily Report (Projects)
+
+-Projects Progress Report (Projects)
+
+-Project Performance Report (Projects)
+
+-Lessons Learned (Projects)
+
+-Request of Supplier Contact Access (Buying)
+
+-Supplier Selection (Buying)
+
 
 -User Account Creation or Amendment Form (HR)
 
--receiving correspondence (HR)
+-Receiving correspondence (HR)
 
--sending correspondence (HR)
+-Sending correspondence (HR)
 
 -Interview Evaluation (HR)
 
@@ -25,10 +37,8 @@ additional ERPNext HR doctypes app.
 
 -Travel Justification (HR)
 
-#### License
+-Corrective Action Report (HR)
 
-MIT
-
-#### License
+License
 
 MIT

@@ -17,5 +17,6 @@ frappe.ui.form.on('Custody Issuance', {
 
 			}
 		}); //end of frappe.call
-	}
+	},
+
 });

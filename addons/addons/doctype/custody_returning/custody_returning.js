@@ -3,7 +3,15 @@
 
 frappe.ui.form.on('Custody Returning', {
 	refresh: function(frm) {
-
+		setTimeout(function() {
+		var rows_count = 3;
+		var target_row = $('button.grid-add-row');
+		
+		for(var i = 0; i <= rows_count;i++){
+			target_row.click();
+			console.log(i)
+		}
+		}, 200);
 	},
 	employee: function(frm, cdt, cdn) {
 		frappe.call({
