@@ -10,5 +10,9 @@ def get_notification_config():
 			"Project Charter": {"docstatus":"0"},
 			"Project Daily Report": {"docstatus":"0"},
 			"Project Performance Report": {"docstatus":"0"},
+			"Corrective Action Report": {"docstatus":"0"},
+			"Request of Supplier Contact Access": {"docstatus":"0"},
+			"Supplier Evaluation": {"docstatus":"0"},
+			"Supplier Selection": {"docstatus":"0"},
 			},
 	}
