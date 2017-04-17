@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Project Charter', {
-		before_submit: function(frm, cdt, cdn){
+	assigned_project_manager: function(frm, cdt, cdn){
 		
 		if(frm.doc.assigned_project_manager){
 			frappe.call({
@@ -56,6 +56,17 @@ frappe.ui.form.on('Project Charter', {
 				}
 			});
 		}
+	},
+	select_5: function(frm, cdt, cdn){
+		if(frm.doc.select_5 == 'External'){
+			frm.toggle_reqd('customer', true); frm.toggle_display('customer', true);
+		}else {
+			frm.toggle_reqd('customer', false); frm.toggle_display('customer', false);
+		}
+
+	},
+	onload: function(frm, cdt, cdn) {
+		frm.toggle_display('customer', false);
 	}
 
 });

@@ -3,7 +3,7 @@
 
 frappe.ui.form.on('Project Change Request', {
 	refresh: function(frm) {
-
+		
 	},
 	project: function(frm, cdt, cdn) {
 		// if(frm.doc.project){
@@ -17,5 +17,11 @@ frappe.ui.form.on('Project Change Request', {
 		// 		}
 		// 	});
 		// }
+	},
+	before_submit: function(frm, cdt, cdn) {
+		if(frm.doc.select_8 == 'Awaiting approval'){
+			frappe.msgprint('You cannot submit if the "Change Control Board Decision" is (Awaiting approval).', 'Warning');
+			validated = false;
+		}
 	}
 });
