@@ -10,3 +10,14 @@ def get_proj_info(project):
     proj = frappe.get_doc("Project", project)
 
     return proj
+
+@frappe.whitelist()
+def get_supp_info(supplier):
+    supp = frappe.get_doc('Supplier', supplier)
+
+    return supp
+@frappe.whitelist()
+def get_cust_info(customer):
+    cust = frappe.get_doc('Customer', customer)
+
+    return cust

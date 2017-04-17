@@ -4,32 +4,51 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"label": _("Supplier"),
+			"label": _("Purchasing"),
 			"icon": "fa fa-star",
+			"items": [
+
+			]
+		},
+		{
+			"label": _("Supplier"),
 			"items": [
 				{
 					"type": "doctype",
 					"name": "Request of Supplier Contact Access",
 					"description": _("Request of Supplier Contact Access."),
 				},
-			],
-			"label": _("Supplier Selection"),
-			"icon": "fa fa-star",
+			]
+		},
+		{
+			"label": _("Setup"),
+			"icon": "fa fa-cog",
 			"items": [
-				{
-					"type": "doctype",
-					"name": "Supplier Selection",
-					"description": _("Supplier Selection."),
-				},
-			],
-			"label": _("Supplier Evaluation"),
-			"icon": "fa fa-star",
+				
+			]
+		},
+		{
+			"label": _("Items and Pricing"),
 			"items": [
-				{
-					"type": "doctype",
-					"name": "Supplier Evaluation",
-					"description": _("Supplier Evaluation."),
-				},
+			]
+		},
+		{
+			"label": _("Analytics"),
+			"icon": "fa fa-table",
+			"items": [
+				
+			]
+		},
+		{
+			"label": _("Other Reports"),
+			"icon": "fa fa-list",
+			"items": [
+				
+			]
+		},
+		{
+			"label": _("Help"),
+			"items": [
 			]
 		},
 	]

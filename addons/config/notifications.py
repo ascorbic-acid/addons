@@ -14,5 +14,6 @@ def get_notification_config():
 			"Request of Supplier Contact Access": {"docstatus":"0"},
 			"Supplier Evaluation": {"docstatus":"0"},
 			"Supplier Selection": {"docstatus":"0"},
+			"Request of Customer Contact Access": {"docstatus": "0"},
 			},
 	}
