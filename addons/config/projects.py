@@ -21,6 +21,16 @@ def get_data():
 					"name": "Lessons Learned",
 					"description": _("Lessons Learned."),
 				},
+				{
+					"type": "doctype",
+					"name": "Project Daily Report",
+					"description": _("Project Daily Report."),
+				},
+				{
+					"type": "doctype",
+					"name": "Project Performance Report",
+					"description": _("Project Performance Report."),
+				},
 			],	
 		},
 		{
@@ -32,17 +42,6 @@ def get_data():
 					"name": "Projects Progress Report",
 					"description": _("Projects Progress Report."),
 				},
-				{
-					"type": "doctype",
-					"name": "Project Daily Report",
-					"description": _("Project Daily Report."),
-				},
-				{
-					"type": "doctype",
-					"name": "Project Performance Report",
-					"description": _("Project Performance Report."),
-				},
-
 			],
 
 

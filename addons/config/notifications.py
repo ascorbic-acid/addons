@@ -6,6 +6,8 @@ def get_notification_config():
 		return {
 			"for_doctype": {
 			"Overtime Application": {"docstatus":"0"},
+			"Custody Issuance": {"docstatus":"0"},
+			"Custody Returning": {"docstatus":"0"},
 			"Project Change Request": {"docstatus":"0"},
 			"Project Charter": {"docstatus":"0"},
 			"Project Daily Report": {"docstatus":"0"},

@@ -4,9 +4,9 @@
 frappe.ui.form.on('Custody Issuance', {
 	refresh: function(frm) {
 
-	},
-	employee: function(frm, cdt, cdn) {
-		frappe.call({
+	},employee: function(frm, cdt, cdn) {
+		if(frm.doc.employee){
+					frappe.call({
 			method: 'addons.api.get_emp_info',
 			args: {
 				employee: frm.doc.employee
@@ -17,6 +17,6 @@ frappe.ui.form.on('Custody Issuance', {
 
 			}
 		}); //end of frappe.call
+		}
 	},
-
 });
