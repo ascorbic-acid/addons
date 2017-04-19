@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2015, Ebkar Technology & Management Solutions and contributors
+# Copyright (c) 2017, Ebkar Technology & Management Solutions and contributors
 # For license information, please see license.txt
 
 from __future__ import unicode_literals

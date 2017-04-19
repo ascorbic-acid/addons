@@ -18,5 +18,10 @@ def get_notification_config():
 			"Supplier Evaluation": {"docstatus":"0"},
 			"Supplier Selection": {"docstatus":"0"},
 			"Request of Customer Contact Access": {"docstatus": "0"},
+			"Receiving Correspondence": {"docstatus": "0"},
+			"Sending Correspondence": {"docstatus": "0"},
+			"Interview Evaluation": {"docstatus": "0"},
+			"Travel Justification": {"docstatus": "0"},
+			"Disciplinary Actions": {"docstatus": "0"},
 			},
 	}

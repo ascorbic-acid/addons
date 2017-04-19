@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TestRequisitionofMaterialsorServices(unittest.TestCase):
+class TestSendingCorrespondence(unittest.TestCase):
 	pass
