@@ -18,6 +18,16 @@ def get_data():
 					"name": "Request of Supplier Contact Access",
 					"description": _("Request of Supplier Contact Access."),
 				},
+				{
+					"type": "doctype",
+					"name": "Supplier Selection",
+					"description": _("Supplier Selection."),
+				},
+				{
+					"type": "doctype",
+					"name": "Supplier Evaluation",
+					"description": _("Supplier Evaluation."),
+				},
 			]
 		},
 		{
