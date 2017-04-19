@@ -5,7 +5,7 @@ frappe.ui.form.on('Overtime Application', {
 	refresh: function(frm) {
 
 	},
-		employee: function(frm, cdt, cdn) {
+	employee: function(frm, cdt, cdn) {
 		if(frm.doc.employee){
 					frappe.call({
 			method: 'addons.api.get_emp_info',
@@ -21,5 +21,9 @@ frappe.ui.form.on('Overtime Application', {
 		}); //end of frappe.call
 		}
 
+	},
+	before_submit: function(frm, cdt, cdn) {
+		frm.toggle_reqd('calculated_overtime_value', true);
+		frm.toggle_reqd('sanctioned_overtime_value', true);
 	}
 });
