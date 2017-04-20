@@ -61,6 +61,7 @@ def get_notification_config():
 				},
 			"Requisition of Materials or Services": {
 				"docstatus": "0"
-				}
+				},
+			"User Account Creation or Amendment": {"docstatus": "0"},
 			},
 	}

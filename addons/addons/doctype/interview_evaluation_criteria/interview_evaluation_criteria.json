@@ -3,6 +3,7 @@
  "allow_guest_to_view": 0, 
  "allow_import": 0, 
  "allow_rename": 0, 
+ "autoname": "field:interview_evaluation_criteria", 
  "beta": 0, 
  "creation": "2017-04-18 17:16:57.095473", 
  "custom": 0, 
@@ -52,7 +53,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-04-18 17:16:57.095473", 
+ "modified": "2017-04-20 11:10:33.672651", 
  "modified_by": "Administrator", 
  "module": "Addons", 
  "name": "Interview Evaluation Criteria", 
@@ -80,7 +81,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "show_name_in_global_search": 0, 

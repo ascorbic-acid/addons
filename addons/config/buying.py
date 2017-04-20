@@ -28,6 +28,11 @@ def get_data():
 					"name": "Supplier Evaluation",
 					"description": _("Supplier Evaluation."),
 				},
+				{
+					"type": "doctype",
+					"name": "Criteria of Supplier Evaluation",
+					"description": _("Criteria of Supplier Evaluation."),
+				},
 			]
 		},
 		{
