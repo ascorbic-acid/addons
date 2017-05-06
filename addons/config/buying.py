@@ -45,25 +45,11 @@ def get_data():
 		{
 			"label": _("Items and Pricing"),
 			"items": [
-			]
-		},
-		{
-			"label": _("Analytics"),
-			"icon": "fa fa-table",
-			"items": [
-				
-			]
-		},
-		{
-			"label": _("Other Reports"),
-			"icon": "fa fa-list",
-			"items": [
-				
-			]
-		},
-		{
-			"label": _("Help"),
-			"items": [
+				{
+					"type": "doctype",
+					"name": "Item Creation or Amendment",
+					"description": _("Item Creation or Amendment."),
+				},
 			]
 		},
 	]

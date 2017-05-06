@@ -31,6 +31,11 @@ def get_data():
 					"name": "Project Performance Report",
 					"description": _("Project Performance Report."),
 				},
+				{
+					"type": "doctype",
+					"name": "Item Creation or Amendment",
+					"description": _("Item Creation or Amendment."),
+				},
 			],	
 		},
 		{

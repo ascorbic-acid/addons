@@ -11,6 +11,11 @@ def get_data():
 					"name": "Request of Customer Contact Access",
 					"description": _("Request of Customer Contact Access."),
 				},
+				{
+					"type": "doctype",
+					"name": "Item Creation or Amendment",
+					"description": _("Item Creation or Amendment."),
+				},
 			]
 		},
 	]
